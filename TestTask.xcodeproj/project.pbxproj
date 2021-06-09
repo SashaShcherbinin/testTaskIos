@@ -56,15 +56,71 @@
 		23E147152670F8D000EBBB3A /* TestTask */ = {
 			isa = PBXGroup;
 			children = (
-				23E147162670F8D000EBBB3A /* AppDelegate.swift */,
-				23E147182670F8D000EBBB3A /* SceneDelegate.swift */,
-				23E1471A2670F8D000EBBB3A /* ViewController.swift */,
-				23E1471C2670F8D000EBBB3A /* Main.storyboard */,
+				23E1472C267101C000EBBB3A /* presentation */,
+				23E1472B267101BA00EBBB3A /* data */,
+				23E1472A267101B200EBBB3A /* domain */,
 				23E1471F2670F8D100EBBB3A /* Assets.xcassets */,
-				23E147212670F8D100EBBB3A /* LaunchScreen.storyboard */,
 				23E147242670F8D100EBBB3A /* Info.plist */,
 			);
 			path = TestTask;
+			sourceTree = "<group>";
+		};
+		23E1472A267101B200EBBB3A /* domain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = domain;
+			sourceTree = "<group>";
+		};
+		23E1472B267101BA00EBBB3A /* data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		23E1472C267101C000EBBB3A /* presentation */ = {
+			isa = PBXGroup;
+			children = (
+				23E1472D267105B800EBBB3A /* feature */,
+				23E147162670F8D000EBBB3A /* AppDelegate.swift */,
+				23E147212670F8D100EBBB3A /* LaunchScreen.storyboard */,
+				23E147182670F8D000EBBB3A /* SceneDelegate.swift */,
+			);
+			path = presentation;
+			sourceTree = "<group>";
+		};
+		23E1472D267105B800EBBB3A /* feature */ = {
+			isa = PBXGroup;
+			children = (
+				23E147302671075800EBBB3A /* movie */,
+				23E1472F2671074900EBBB3A /* search */,
+				23E1472E2671074000EBBB3A /* home */,
+			);
+			path = feature;
+			sourceTree = "<group>";
+		};
+		23E1472E2671074000EBBB3A /* home */ = {
+			isa = PBXGroup;
+			children = (
+				23E1471C2670F8D000EBBB3A /* Main.storyboard */,
+				23E1471A2670F8D000EBBB3A /* ViewController.swift */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		23E1472F2671074900EBBB3A /* search */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = search;
+			sourceTree = "<group>";
+		};
+		23E147302671075800EBBB3A /* movie */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = movie;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
